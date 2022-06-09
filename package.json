@@ -1,0 +1,32 @@
+{
+  "name": "ajs-homework-advanced-forin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlovaaa/ajs-homework-advanced-forin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orlovaaa/ajs-homework-advanced-forin/issues"
+  },
+  "homepage": "https://github.com/orlovaaa/ajs-homework-advanced-forin#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1",
+    "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.22.8"
+  }
+}
